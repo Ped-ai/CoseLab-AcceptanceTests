@@ -26,4 +26,4 @@ Feature: Publicación de excedentes de cosecha
     Examples:
       | cultivo   | cantidad_invalida | mensaje_error                               |
       | Albahaca  | 0                 | La cantidad debe ser mayor a 0 kg           |
-      | Zanahoria | -5                | No se permiten valores negativos en el stock |
+      | Zanahoria | -5                | No se permiten valores negativos en el stock|
