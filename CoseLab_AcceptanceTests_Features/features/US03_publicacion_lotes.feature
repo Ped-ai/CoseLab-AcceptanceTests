@@ -23,6 +23,7 @@ Feature: Publicación de excedentes de cosecha
     Then el sistema impide la publicación del lote
     And muestra el mensaje de validación "<mensaje_error>"
 
+
     Examples:
       | cultivo   | cantidad_invalida | mensaje_error                               |
       | Albahaca  | 0                 | La cantidad debe ser mayor a 0 kg           |
