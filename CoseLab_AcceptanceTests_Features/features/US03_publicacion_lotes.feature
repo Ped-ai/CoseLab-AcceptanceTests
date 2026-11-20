@@ -17,6 +17,9 @@ Feature: Publicación de excedentes de cosecha
       | Tomate italiano  | 20.0        | Maduro      | Conservas       |
       | Hojas de acelga  | 12.0        | Sobremaduro | Compostaje      |
 
+
+
+
   Scenario Outline: Rechazo de publicación por cantidad inválida
     Given que el administrador del huerto ha iniciado sesión en el panel de gestión
     When intenta registrar el cultivo "<cultivo>" con una cantidad inválida de "<cantidad_invalida>" kg
