@@ -20,6 +20,8 @@ Feature: Publicación de excedentes de cosecha
 
 
 
+
+
   Scenario Outline: Rechazo de publicación por cantidad inválida
     Given que el administrador del huerto ha iniciado sesión en el panel de gestión
     When intenta registrar el cultivo "<cultivo>" con una cantidad inválida de "<cantidad_invalida>" kg
